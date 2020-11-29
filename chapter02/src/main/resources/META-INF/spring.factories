@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.huijz.lagou.chapter02.user.UserAutoConfigure

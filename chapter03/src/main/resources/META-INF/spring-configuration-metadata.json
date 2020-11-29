@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "spring.annotation.config",
+      "type": "java.lang.String",
+      "defaultValue": "annotation"
+    },
+    {
+      "name": "spring.annotation.enable",
+      "type": "java.lang.Boolean",
+      "defaultValue": false
+    }
+  ]
+}

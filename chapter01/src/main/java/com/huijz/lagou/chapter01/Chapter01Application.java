@@ -1,10 +1,10 @@
 package com.huijz.lagou.chapter01;
 
-import com.huijz.lagou.chapter02.user.EnableUserClient;
+import com.huijz.lagou.chapter03.annotation.EnableAutoConfigureAnnotationClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@EnableUserClient
+@EnableAutoConfigureAnnotationClient
 @SpringBootApplication
 public class Chapter01Application {
 

@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 public class UserAutoConfigure {
 
     @Bean
-    //@ConditionalOnProperty(prefix = "spring.user", value = "enable", havingValue = "true")
+    @ConditionalOnProperty(prefix = "spring.user", value = "enable", havingValue = "true")
     public UserClient userClient(UserProperties userProperties) {
         return new UserClient(userProperties);
     }
