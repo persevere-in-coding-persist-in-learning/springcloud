@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "spring.user.name",
+      "type": "java.lang.String",
+      "defaultValue": "jiangzhouhui"
+    },
+    {
+      "name": "spring.user.enable",
+      "type": "java.lang.Boolean",
+      "defaultValue": false
+    }
+  ]
+}
