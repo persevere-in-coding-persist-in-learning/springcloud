@@ -1,8 +1,6 @@
 package com.huijz.lagou.chapter01.controller;
 
 import com.huijz.lagou.chapter01.config.User;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
