@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.huijz.lagou</groupId>
-    <artifactId>chapter03</artifactId>
+    <artifactId>chapter04</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chapter03</name>
+    <name>chapter04</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -23,16 +23,9 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

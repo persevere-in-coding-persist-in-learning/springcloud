@@ -1,10 +1,10 @@
-package com.huijz.lagou.chapter03;
+package com.huijz.lagou.chapter04;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Chapter03ApplicationTests {
+class Chapter04ApplicationTests {
 
     @Test
     void contextLoads() {
