@@ -12,8 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class UserController {
-    @Autowired
+    final
     UserClient userClient;
+
+    public UserController(UserClient userClient) {
+        this.userClient = userClient;
+    }
 
     @GetMapping("userName")
     public String getUserName() {

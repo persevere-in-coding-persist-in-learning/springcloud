@@ -13,8 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AnnotationController {
 
-    @Autowired
+    final
     AnnotationClient annotationClient;
+
+    public AnnotationController(AnnotationClient annotationClient) {
+        this.annotationClient = annotationClient;
+    }
 
 
     @GetMapping("annotation")
