@@ -15,7 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("get")
     public User get(Integer id) {
+        try {
+            Thread.sleep(10000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         User user = new User(id, "springCloud");
         return user;
+
     }
 }
