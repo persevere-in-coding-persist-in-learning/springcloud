@@ -12,6 +12,7 @@
         <module name="chapter02" />
         <module name="chapter01" />
         <module name="demo" />
+        <module name="chapter12" />
         <module name="chapter11" />
         <module name="chapter10" />
         <module name="chapter09" />
@@ -34,6 +35,7 @@
       <module name="chapter09" target="1.8" />
       <module name="chapter10" target="1.8" />
       <module name="chapter11" target="1.8" />
+      <module name="chapter12" target="1.8" />
       <module name="demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -51,6 +53,7 @@
       <module name="chapter09" options="-parameters" />
       <module name="chapter10" options="-parameters" />
       <module name="chapter11" options="-parameters" />
+      <module name="chapter12" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
   </component>
